@@ -2,6 +2,9 @@
 
 namespace CodeWars.UnitTests
 {
+    //Trait is a way of grouping and organising tests, not required but have left it here 
+    //as a reminder.
+    [Trait("Category", "Triangle")]
     public class TriangleTests
     {
         [Fact]
